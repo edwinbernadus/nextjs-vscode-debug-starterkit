@@ -5,6 +5,10 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+let v =3;
+let z =  5 + v;
+let z2 = z + 3;
+
 export default function Home() {
   return (
     <>

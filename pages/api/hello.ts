@@ -9,5 +9,10 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'John Doe' })
+
+  let v = 3;
+  let z = 8 + v;
+  let z2 = z + 11;
+
+  res.status(200).json({ name: 'John Doe' + " " + z2 })
 }
